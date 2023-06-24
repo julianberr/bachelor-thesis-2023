@@ -23,11 +23,15 @@ import matplotlib.pyplot as plt
 
 # Soruces used: 
 # SEC EDGAR API and the corresponding files on the SEC EDGAR Platform converted using py-xbrl
+# Polygon.io Developer Plan
+# Twelve Data
+# Interest Rate Data https://www.federalreserve.gov/releases/h15/default.htm
 
-# API ENDPOINTS
+# API ENDPOINTS SEC
 ep_companytickers = "https://www.sec.gov/files/company_tickers.json" # Get all tickers by cik
 ep_submissions = "https://data.sec.gov/submissions/CIK[_CIK_NUMBER_].json" # Get all file submissions and additional information (sic code)
 ep_companyfacts = "https://data.sec.gov/api/xbrl/companyfacts/CIK[_CIK_NUMBER_].json" # Get all values for a specific piece of information
+
 # Steps: 
 
 # 0. Set Headers
